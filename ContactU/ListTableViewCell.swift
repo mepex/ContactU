@@ -10,7 +10,7 @@ import UIKit
 
 class ListTableViewCell: UITableViewCell {
 
-    @IBOutlet var mailButton: UIButton! = UIButton()
+    @IBOutlet var mailButton: UIButton! = UIButton();
     @IBOutlet var textButton: UIButton! = UIButton()
     @IBOutlet var callButton: UIButton! = UIButton()
     @IBOutlet var nameLabel: UILabel! = UILabel()

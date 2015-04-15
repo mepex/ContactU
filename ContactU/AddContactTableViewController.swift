@@ -44,9 +44,6 @@ class AddContactTableViewController: UITableViewController, UIImagePickerControl
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
         
-    
-   // func imagePickerController(picker: UIImagePickerController!, didFinishPickingMediaWithInfo info: NSDictionary!) {
-
         let pickedImage:UIImage = info[0] as! UIImage
      //   let pickedImage:UIImage = info.objectForKey(UIImagePickerControllerOriginalImage) as UIImage
         

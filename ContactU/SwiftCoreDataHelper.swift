@@ -55,7 +55,7 @@ class SwiftCoreDataHelper: NSObject {
     class func saveManagedObjectContext(managedObjectContext:NSManagedObjectContext)->Bool{
         if managedObjectContext.save(nil){
             return true
-        }else{
+        } else {
             return false
         }
     }

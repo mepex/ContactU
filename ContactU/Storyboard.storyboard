@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--I have to contact-->
+        <!--I Have To Contact-->
         <scene sceneID="Oo0-PA-bXE">
             <objects>
                 <tableViewController id="kmY-uC-xvS" customClass="ListTableViewController" customModule="ContactU" customModuleProvider="target" sceneMemberID="viewController">
@@ -84,7 +84,7 @@
                             <outlet property="delegate" destination="kmY-uC-xvS" id="Ktx-zh-Jea"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="I have to contact" id="0wu-Tb-6n8">
+                    <navigationItem key="navigationItem" title="I Have To Contact" id="0wu-Tb-6n8">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="4ao-PQ-Ozd">
                             <connections>
                                 <segue destination="pth-SH-ajD" kind="push" id="a4R-ih-6JL"/>
@@ -96,7 +96,7 @@
             </objects>
             <point key="canvasLocation" x="1260" y="483"/>
         </scene>
-        <!--Add Item-->
+        <!--Add ToDo-->
         <scene sceneID="dSW-EA-sH3">
             <objects>
                 <viewController id="pth-SH-ajD" customClass="AddItemViewController" customModule="ContactU" customModuleProvider="target" sceneMemberID="viewController">
@@ -165,7 +165,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Add Item" id="350-A1-jYa">
+                    <navigationItem key="navigationItem" title="Add ToDo" id="350-A1-jYa">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="A2U-pu-vj0">
                             <connections>
                                 <action selector="done:" destination="pth-SH-ajD" id="Vxl-0u-Lcu"/>
